@@ -29,8 +29,8 @@ bookmarkRouter
         .send('Invalid data');
     }
 
-    if (!url.startsWith('http://')) {
-      logger.error('Description is required.');
+    if (!url.startsWith('http://') && !url.startsWith('https://')) {
+      logger.error('URL must begin with http:// or https://');
       return res
         .status(400)
         .send('Invalid data');

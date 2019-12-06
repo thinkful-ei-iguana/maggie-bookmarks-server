@@ -33,3 +33,13 @@
 {"message":"If entered, rating must be a number between 1 and 5.","level":"error"}
 {"message":"Bookmark with id f33b323f-0198-415e-969c-55d5945ecdf3 created.","level":"info"}
 {"message":"Bookmark with id 3972aea3-7ebe-46ec-bf01-acc3fd113c47 created.","level":"info"}
+{"message":"Description is required.","level":"error"}
+{"message":"Description is required.","level":"error"}
+{"message":"Description is required.","level":"error"}
+{"message":"Description is required.","level":"error"}
+{"message":"URL must begin with http:// or https://","level":"error"}
+{"message":"Bookmark with id 1f0de71a-599c-455c-accb-498511ea270e created.","level":"info"}
+{"message":"URL must begin with http:// or https://","level":"error"}
+{"message":"Bookmark with id 84eeefbc-6f55-499b-a73e-0f90e586d884 created.","level":"info"}
+{"message":"Bookmark with id b12aeb16-6052-4c9a-b55a-ed244773ad45 created.","level":"info"}
+{"message":"URL must begin with http:// or https://","level":"error"}
