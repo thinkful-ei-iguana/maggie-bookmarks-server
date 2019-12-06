@@ -13,7 +13,7 @@ bookmarkRouter
       .json(bookmarks);
   })
   .post(bodyParser, (req, res) => {
-    const { title, url, rating = '', desc } = req.body;
+    let { title, url, rating = '', desc } = req.body;
 
     if (!title) {
       logger.error('Title is required.');
@@ -36,18 +36,18 @@ bookmarkRouter
         .send('Invalid data');
     }
 
-    const numberRating = parseInt(rating);
+    const numberRating = parseFloat(rating);
     if (isNaN(numberRating) && rating !== '') {
       logger.error('If entered, rating must be a number.');
       return res
         .status(400)
-        .send('Invalid data number rating');
+        .send('Invalid data oawjefoijawofa');
     }
     if (numberRating > 5 || numberRating < 1) {
       logger.error('If entered, rating must be a number between 1 and 5.');
       return res
         .status(400)
-        .send('Invalid data number must be between');
+        .send('Invalid data');
     }
 
     if (!desc) {
@@ -62,7 +62,7 @@ bookmarkRouter
       id,
       title,
       url,
-      rating,
+      rating: String(numberRating),
       desc
     };
 

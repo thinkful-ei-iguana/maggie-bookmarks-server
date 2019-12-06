@@ -43,3 +43,22 @@
 {"message":"Bookmark with id 84eeefbc-6f55-499b-a73e-0f90e586d884 created.","level":"info"}
 {"message":"Bookmark with id b12aeb16-6052-4c9a-b55a-ed244773ad45 created.","level":"info"}
 {"message":"URL must begin with http:// or https://","level":"error"}
+{"message":"URL must begin with http:// or https://","level":"error"}
+{"message":"URL must begin with http:// or https://","level":"error"}
+{"message":"Bookmark with id 7a080c43-cc62-4d22-8dc8-6318df16e627 created.","level":"info"}
+{"message":"Bookmark with id 2895ea7f-96e8-4a77-974d-a39cf38d2a3d created.","level":"info"}
+{"message":"If entered, rating must be a number.","level":"error"}
+{"message":"Bookmark with id 9b218db1-c64d-46eb-86ad-816ea0adb8d4 created.","level":"info"}
+{"message":"Bookmark with id 9802be8c-731a-4204-9e07-90fc61a450ff created.","level":"info"}
+{"message":"Bookmark with id 8c2f632d-9858-4e63-a879-7df4673cd7db created.","level":"info"}
+{"message":"Bookmark with id 25087f0c-4275-4e2d-a27b-6df90283f9fb created.","level":"info"}
+{"message":"If entered, rating must be a number.","level":"error"}
+{"message":"Bookmark with id 0fe58393-603f-44e2-9c07-8a6caddf506a created.","level":"info"}
+{"message":"If entered, rating must be a number.","level":"error"}
+{"message":"Bookmark with id 6cf27bbf-028b-4afe-b93c-51ef65acee29 created.","level":"info"}
+{"message":"If entered, rating must be a number.","level":"error"}
+{"message":"Bookmark with id d309ba8b-3312-44f5-b9e3-74ef1003649a created.","level":"info"}
+{"message":"If entered, rating must be a number between 1 and 5.","level":"error"}
+{"message":"Bookmark with id e5729294-982e-49b4-8650-cae21c776d89 created.","level":"info"}
+{"message":"Bookmark with id ef1658aa-24b2-453d-ae1b-2fac588d5b19 created.","level":"info"}
+{"message":"Bookmark with id 706f5f5f-7f18-422a-8aa8-ebc4bd4b3ce5 created.","level":"info"}
