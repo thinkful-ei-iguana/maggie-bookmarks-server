@@ -93,7 +93,7 @@ bookmarkRouter
   .delete((req, res) => {
     const { id } = req.params;
 
-    const bookmarkIndex = bookmarks.findIndex(b => b.id === parseInt(id));
+    const bookmarkIndex = bookmarks.findIndex(b => b.id === parseInt(id);
 
     if (bookmarkIndex === -1) {
       logger.error(`Bookmark with id ${id} not found.`);
